@@ -53,6 +53,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\2D\Scripts\AnimGif.cs" />
      <Compile Include="Assets\2D\Scripts\doors.cs" />
      <Compile Include="Assets\2D\Scripts\movement.cs" />
      <Compile Include="Assets\3D\Scripts\CameraLock.cs" />
