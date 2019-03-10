@@ -35,7 +35,7 @@ public class movement : MonoBehaviour
 
         Vector2 thumbstick = OVRInput.Get(OVRInput.Axis2D.PrimaryThumbstick, OVRInput.Controller.LTouch);
 
-        Debug.Log(thumbstick);
+        //Debug.Log(thumbstick);
 
         transform.Translate(thumbstick[0] * Time.deltaTime, 0.0f, 0.0f);
 
