@@ -53,13 +53,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\2D\Scripts\AnimGif.cs" />
-     <Compile Include="Assets\2D\Scripts\doors.cs" />
-     <Compile Include="Assets\2D\Scripts\movement.cs" />
-     <Compile Include="Assets\3D\Scripts\CameraLock.cs" />
-     <Compile Include="Assets\3D\Scripts\debugLock.cs" />
-     <Compile Include="Assets\3D\Scripts\OculusGrab.cs" />
-     <Compile Include="Assets\3D\Scripts\TriggerFingers.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scenes\Scripts\TestScript.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AmbienceEmitter.cs" />
      <Compile Include="Assets\Oculus\AudioManager\Scripts\Audio\AudioManager.cs" />
@@ -340,6 +333,26 @@
      <Compile Include="Assets\Oculus\VoiceMod\Scripts\Helpers\OVRMicInput.cs" />
      <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceMod.cs" />
      <Compile Include="Assets\Oculus\VoiceMod\Scripts\OVRVoiceModContext.cs" />
+     <Compile Include="Assets\Scripts\2D\control2D.cs" />
+     <Compile Include="Assets\Scripts\2D\doorChildren\backDoor_hallway.cs" />
+     <Compile Include="Assets\Scripts\2D\doorChildren\bedroom.cs" />
+     <Compile Include="Assets\Scripts\2D\doorChildren\frontPorch_hallway.cs" />
+     <Compile Include="Assets\Scripts\2D\doorChildren\hallway_back.cs" />
+     <Compile Include="Assets\Scripts\2D\doorChildren\hallway_bedroom.cs" />
+     <Compile Include="Assets\Scripts\2D\doorChildren\hallway_front.cs" />
+     <Compile Include="Assets\Scripts\2D\doorChildren\template.cs" />
+     <Compile Include="Assets\Scripts\2D\doors.cs" />
+     <Compile Include="Assets\Scripts\2D\gameManager2D.cs" />
+     <Compile Include="Assets\Scripts\2D\scroll2D.cs" />
+     <Compile Include="Assets\Scripts\2D\title.cs" />
+     <Compile Include="Assets\Scripts\3D\CameraLock.cs" />
+     <Compile Include="Assets\Scripts\3D\debugLock.cs" />
+     <Compile Include="Assets\Scripts\3D\gameManager3D.cs" />
+     <Compile Include="Assets\Scripts\3D\OculusGrab.cs" />
+     <Compile Include="Assets\Scripts\3D\OVRGrabbable.cs" />
+     <Compile Include="Assets\Scripts\3D\OVRGrabber.cs" />
+     <Compile Include="Assets\Scripts\3D\TriggerFingers.cs" />
+     <Compile Include="Assets\Scripts\gameManager.cs" />
      <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarMaterialStateShader.cginc" />
      <None Include="Assets\Oculus\Avatar\Samples\CrossPlatform\Readme.txt" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\Version1.5\Avatar_PC_SingleComponent.shader" />
@@ -350,6 +363,7 @@
      <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarSurfaceShader.shader" />
      <None Include="Assets\Oculus\SampleFramework\Core\CustomHands\Shaders\Hands_02.shader" />
      <None Include="Assets\Oculus\Avatar\Content\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
+     <None Include="Assets\3D\Shaders\InvisibleMask.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderSelfOccluding.shader" />
      <None Include="Assets\Oculus\Avatar\Resources\Materials\AvatarSurfaceShaderPBS.shader" />
      <None Include="Assets\Oculus\Avatar\Samples\SocialStarter\README.txt" />
